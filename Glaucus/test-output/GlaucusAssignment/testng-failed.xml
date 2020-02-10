@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GlaucusAssignment]">
+  <test thread-count="5" name="Practice(failed)" parallel="classes">
+    <classes>
+      <class name="com.glaucus.qa.testcases.Login_Page_Test">
+        <methods>
+          <include name="wrongPasswordValidationTest"/>
+          <include name="setup"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- com.glaucus.qa.testcases.Login_Page_Test -->
+    </classes>
+  </test> <!-- Practice(failed) -->
+</suite> <!-- Failed suite [GlaucusAssignment] -->

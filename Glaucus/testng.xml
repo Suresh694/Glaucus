@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GlaucusAssignment">
+  <test name="Practice" parallel="classes" thread-count="5">
+  <classes>
+  	<class name="com.glaucus.qa.testcases.Login_Page_Test"></class>
+  	<class name="com.glaucus.qa.testcases.Order_Page_Test"></class>
+  	<class name="com.glaucus.qa.testcases.SalesOrder_Page_Test"></class>
+  	<class name="com.glaucus.qa.testcases.AddOrder_Page_Test"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

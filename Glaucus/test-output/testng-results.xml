@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="6" total="9" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GlaucusAssignment" duration-ms="110486" started-at="2020-02-07T07:07:12Z" finished-at="2020-02-07T07:09:03Z">
+    <groups>
+    </groups>
+    <test name="Practice" duration-ms="110486" started-at="2020-02-07T07:07:12Z" finished-at="2020-02-07T07:09:03Z">
+      <class name="com.glaucus.qa.testcases.Login_Page_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.glaucus.qa.testcases.Login_Page_Test@543e710e]" name="setup" is-config="true" duration-ms="21994" started-at="2020-02-07T07:07:12Z" finished-at="2020-02-07T07:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTest()[pri:0, instance:com.glaucus.qa.testcases.Login_Page_Test@543e710e]" name="loginPageTest" duration-ms="3897" started-at="2020-02-07T07:07:34Z" finished-at="2020-02-07T07:07:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:com.glaucus.qa.testcases.Login_Page_Test@543e710e]" name="closedriver" is-config="true" duration-ms="1507" started-at="2020-02-07T07:07:38Z" finished-at="2020-02-07T07:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.glaucus.qa.testcases.Login_Page_Test@543e710e]" name="setup" is-config="true" duration-ms="37828" started-at="2020-02-07T07:07:40Z" finished-at="2020-02-07T07:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="wrongEmailValidationTest()[pri:0, instance:com.glaucus.qa.testcases.Login_Page_Test@543e710e]" name="wrongEmailValidationTest" duration-ms="1027" started-at="2020-02-07T07:08:18Z" finished-at="2020-02-07T07:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongEmailValidationTest -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:com.glaucus.qa.testcases.Login_Page_Test@543e710e]" name="closedriver" is-config="true" duration-ms="961" started-at="2020-02-07T07:08:19Z" finished-at="2020-02-07T07:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.glaucus.qa.testcases.Login_Page_Test@543e710e]" name="setup" is-config="true" duration-ms="16823" started-at="2020-02-07T07:08:20Z" finished-at="2020-02-07T07:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="wrongPasswordValidationTest()[pri:0, instance:com.glaucus.qa.testcases.Login_Page_Test@543e710e]" name="wrongPasswordValidationTest" duration-ms="25606" started-at="2020-02-07T07:08:36Z" finished-at="2020-02-07T07:09:02Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div/a[contains(text(),'Orders')]"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'DESKTOP-UNPT6K2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\SURESH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2a1aeb6b38eb498519c86be81e063b2c
+*** Element info: {Using=xpath, value=//div/a[contains(text(),'Orders')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div/a[contains(text(),'Orders')]"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'DESKTOP-UNPT6K2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\SURESH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2a1aeb6b38eb498519c86be81e063b2c
+*** Element info: {Using=xpath, value=//div/a[contains(text(),'Orders')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+at com.glaucus.qa.pages.LoginPage.wrongPassWordValidationFunction(LoginPage.java:65)
+at com.glaucus.qa.testcases.Login_Page_Test.wrongPasswordValidationTest(Login_Page_Test.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongPasswordValidationTest -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:com.glaucus.qa.testcases.Login_Page_Test@543e710e]" name="closedriver" is-config="true" duration-ms="735" started-at="2020-02-07T07:09:02Z" finished-at="2020-02-07T07:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- com.glaucus.qa.testcases.Login_Page_Test -->
+    </test> <!-- Practice -->
+  </suite> <!-- GlaucusAssignment -->
+</testng-results>
